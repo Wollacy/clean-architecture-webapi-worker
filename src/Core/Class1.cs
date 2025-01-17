@@ -1,6 +1,8 @@
-﻿namespace Core;
-
-public class Class1
+﻿namespace Core.Entities
 {
-
+    public class ExampleEntity
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
 }
